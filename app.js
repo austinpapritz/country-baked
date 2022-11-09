@@ -1,6 +1,6 @@
 /* Imports */
-// Slice A: import getCountries from fetch-utils.js
-// Slice B: import getContinents from fetch-utils.js
+import { getCountries } from './fetch-utils.js';
+// import { getContinents } from 'fetch-utils.js';
 
 import { renderContinentOption, renderCountry } from './render-utils.js';
 
@@ -24,8 +24,10 @@ window.addEventListener('load', async () => {
 
 async function findCountries(continent) {
     // Slice A: call the asynchronous fetch function to get the countries
+    const response = await getCountries(continent);
     // Slice C: add continent argument to getCountries function call
     // console log the response object to see all of the nested information returned
+    console.log(response);
     // Slice A: set the countries state to the response.data
     // Slice A: call displayCountries function;
 }
