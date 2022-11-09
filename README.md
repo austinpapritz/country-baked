@@ -1,15 +1,3 @@
-# Search Countries
-
-Build a countries search page
-
-## Live Example
-
-See [demo app](https://incandescent-faloodeh-ac6db8.netlify.app/)
-
-## Getting Started
-
-Use [this repository](https://github.com/alchemycodelab/half-baked-web-01-countries-search) as a template for this deliverable.
-
 ## Learning Objectives
 
 -   On load, use fetch and async/await to hit a GET endpoint, get all items, and set state and update the view using the response
@@ -45,11 +33,6 @@ Search on:
 ## Rubric
 
 The following is required for your assignment to be graded:
-
--   PR open from `dev` to `main`
--   PR Passes CI (lint + tests)
--   PR preview on netlify
--   At least 3 commits (for the individual working features)
 
 | Events...                                                       | **10** |
 | --------------------------------------------------------------- | ------ |
